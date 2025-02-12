@@ -35,7 +35,7 @@ body{
 }
 .Task{
     background-color: rgba(17, 179, 233, 0.927);
-    margin-left: 20px;
+    margin-left: 25px;
 }
 ul{
     list-style: none;
@@ -49,12 +49,14 @@ li{
 }
 .circle{
     border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    line-height: 10px;
+    height: 17px;
+    width: 17px;
+    line-height: 17px;
     font-weight: 200;
     display: inline-block;
     text-align: center;
+    font-size: 10px;
+    margin-right: 15px;
 }
 
 .check{
@@ -64,4 +66,35 @@ li{
 .cross{
     border: 2px solid rgb(243, 133, 133);
     color: rgb(243, 133, 133);
+}
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.Editorial{
+    background-color: rgba(17, 179, 233, 0.927);
+    color: white;
+}
+.Q1{
+    background-color: rgb(214, 108, 252);
+    color: white;
+}
+.Recruiting{
+    background-color: rgb(105, 222, 183);
+    color: white;
+}
+.Mobile{
+    background-color: coral;
+    color: white;
+}
+.Website{
+    background-color: rgb(245, 88, 195);
+    color: white;
+}
+.Sales{
+    background-color: chartreuse;
+    color: white;
 }
